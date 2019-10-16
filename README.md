@@ -1,9 +1,25 @@
-# sql-helper
+### SQL Client
 
-SQL Client
+  TablePlus(Mac)
 
-MAC - TablePlus
+  DBeaver
 
-Postgres - DBeaver
+  Workbench
 
-Workbench
+
+
+	
+
+### export all Databases
+
+NOT A ROOT USER
+
+    mysqldump –all-databases> database.sql
+
+ 
+
+    mysqldump –all-databases -uuser -ppassword> database.sql
+
+ 
+
+    mysqldump –all-databases –skip-lock-tables -u user-ppassword  > Sept2018database.sql
