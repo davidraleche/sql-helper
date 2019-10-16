@@ -12,9 +12,9 @@
 
 ### Export all Databases
 
-`
+```
     sudo mysqldump --all-databases -udxxxx -p > oct-16-2019-database.sql
-`
+```
 NOT A ROOT USER
 
 
