@@ -1,3 +1,10 @@
+### RDS AUTHENTICATION
+	mysql -h xxxxxxxxxta.us-east-1.rds.amazonaws.com  -u admin -p 
+	
+	SELECT User,Host FROM mysql.user;
+	SHOW GRANTS FOR 'drupal'@'%';
+
+
 ### SQL Client
 
   	TablePlus(Mac)
