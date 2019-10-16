@@ -14,9 +14,11 @@
 
 NOT A ROOT USER
 
+    sudo mysqldump --all-databases -udxxxx -p > oct-16-2019-database.sql
+
     mysqldump –all-databases> database.sql
 
-    mysqldump –all-databases -uuser -ppassword> database.sql
+    mysqldump -all-databases -uuser -ppassword> database.sql
 
     mysqldump –all-databases –skip-lock-tables -u user-ppassword  > Sept2018database.sql
 
