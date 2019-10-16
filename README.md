@@ -15,6 +15,13 @@
 ```
     sudo mysqldump --all-databases -udxxxx -p > oct-16-2019-database.sql
 ```
+
+### Export Specific Database
+
+```
+mysqldump --databases xxxxxx-name -udxxxx -p > oct-16-2019-database-david-raleche.sql
+```
+
 NOT A ROOT USER
 
 
