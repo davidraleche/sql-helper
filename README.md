@@ -25,3 +25,8 @@ NOT A ROOT USER
 
 ### SQL TABLE SIZE
 	select table_schema, sum((data_length+index_length)/1024/1024) AS MB from information_schema.tables group by 1;
+
+### CRON NACKUP DATABSECron Backup Database
+
+
+	mysqldump -uroot -p MyDatabase >/home/users/backup_MyDB/$(date +%F)_full_myDB.sql
