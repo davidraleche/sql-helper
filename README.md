@@ -1,12 +1,12 @@
 ### SQL Client
 
-  TablePlus(Mac)
+  	TablePlus(Mac)
 
-  DBeaver
+  	DBeaver
 
-  Workbench
+	Mysql Workbench
 
-
+	SequelPro
 
 	
 
