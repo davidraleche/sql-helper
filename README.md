@@ -5,7 +5,7 @@
 	SHOW GRANTS FOR 'drupal'@'%';
 
 
-### SQL Client
+### SQL Client Recommendation
 
   	TablePlus(Mac)
 
@@ -16,6 +16,11 @@
 	SequelPro
 
 	
+### Import database
+
+```
+mysql -u username -p dbname < dbexport.sql
+```
 
 ### Export all Databases
 
