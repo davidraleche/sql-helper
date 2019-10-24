@@ -19,7 +19,7 @@
 ### Import database
 
 ```
-mysql -u username -p dbname < dbexport.sql
+mysql h xxxxx.com -u username -p dbname < dbexport.sql
 ```
 
 ### Export all Databases
